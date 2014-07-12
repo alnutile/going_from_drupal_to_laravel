@@ -1,3 +1,4 @@
+below is using dictation software read at own risk. 
 The goal of this book is not to make a choice between one or other framework by two make you comfortable enough with Laravel so that you can choose the right tool for the job.
 
 Throughout this book I will reference waves certain tasks are done in Drupal and then I will clearly outline how it can be done in larval. White with any of this stuff there is more than one way to do these things I'll be showing you my way in ways that I've seen from other professionals in the industry.
