@@ -57,9 +57,48 @@ So let's dig in to this really fun PHP framework as I try to help you as a Drupa
 
 ## Chapter Folder layout
 
+So it start with the folder Leah this is going to book look white different but the good news here's what you learn very commonly falling to other frameworks like Rubion rails, angular seed the mean stack
+etc 
+Also keep in mind it really is the model view controller mindset, I'm not sure how much this will carry over to Drupal seven but I do know Drupal ate you might be able to start thinking this way.
+ 
+ 
+Insert laravel tree layout
+
+https://github.com/laravel/laravel
+
+Once you download and install Laravel according to the Laravel docs you will see the structure of. Like Drupal or like Drupal all the things you really not supposed to and wonderful. The rest are up for game. Let's start with the app folder
+
+#### App
+ 
+When You open this folder you will start to see the model view controller mindset happened. But don't forget this is not to limit you can delete those folders if you want It's just to to structure the work. 
+
+Give the commands folder which you Can see the artisan command you can open it up and see some of the methods and there will cover a lot of shortly this is basically where your Drush command would be. 
 
 
-   
+you have your config folder. This is going to be quite interesting this is where Drupal like Drupal you can store settings and configurations I should guess but by the name  What becomes really interesting here is the conventions that the application looks for. If your folder says development and knows your development seven symphysis production Lozier production settings if this is Local zero Local said he will explain how to find the environments later. Each one of the files there that store configuration information can be copied into those folders has needed to override or set up in that environment. For example if you move the database file into the development folder and when that environment is development in the settings will take place.
+
+As seen in the Laravel docs all you need to set up your environment is a .env file in the root of your app. 
+
+Controllers folder
+
+Think of these files as request and response between the site/application user and the logic needed to satisfy their response. Theses files will be called from the router and having a very simple naming convention. We will use a scaffolding tool to make these and other files shortly. 
+
+In Drupal terms this is the file that comes from the menu request page callback.
+
+Insert menu example and and thn route to method
+
+They both take a request to a URL and process the request and return something to the user/view
+
+
+Database folder
+
+Drupl
+
+
+Do a quick install example
+
+
+
 ## Chapter Routing
 
 After working with some of the small micro-frameworks out there
